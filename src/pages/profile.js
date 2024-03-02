@@ -6,10 +6,10 @@ import Seo from "../components/seo";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-const AboutPage = () => {
+const Profile = () => {
   return (
     <main>
-      <h1>About Me</h1>
+      <h1>My profile</h1>
       <p>
         Hi there! I'm the proud creator of this site, which I built with Gatsby.
       </p>
@@ -23,6 +23,6 @@ const AboutPage = () => {
   );
 };
 
-export const Head = () => <Seo title="About me" />;
+export const Head = () => <Seo title="My profile" />;
 
-export default AboutPage;
+export default Profile;

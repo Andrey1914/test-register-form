@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Test Register Form`,
+    siteTitle: `My finance manager.`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

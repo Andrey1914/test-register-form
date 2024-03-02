@@ -2,6 +2,8 @@ import * as React from "react";
 
 import { Link } from "gatsby";
 
+import Seo from "../components/seo";
+
 const RegisterForm = () => {
   return (
     <main>
@@ -26,6 +28,6 @@ const RegisterForm = () => {
   );
 };
 
-export const Head = () => <title>Registration page</title>;
+export const Head = () => <Seo title="Registration page" />;
 
 export default RegisterForm;
